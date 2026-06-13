@@ -2,6 +2,8 @@
 
 Exploratory analysis of 211K+ Hyperliquid trades across 32 accounts, merged with the Bitcoin Fear & Greed Index (2023–2025), to uncover how market sentiment regimes affect win rate, position sizing, and profitability — plus actionable recommendations to optimize trading KPIs.
 
+**Live dashboard:** https://hiralsarkar.github.io/fear-greed-trader-sentiment-analysis/dashboard.html
+
 ## Contents
 
 - [`Sentiment_Trader_Analysis.ipynb`](Sentiment_Trader_Analysis.ipynb) — full analysis notebook (data cleaning, EDA, observations, recommendations)
