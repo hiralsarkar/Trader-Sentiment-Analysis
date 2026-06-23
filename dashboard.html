@@ -17,13 +17,13 @@
   --text:  #d8e8f5;
   --muted: #4d7090;
   --dim:   #2d4f6a;
-  --xf:    #e63946;
-  --f:     #f4a261;
-  --n:     #748c9e;
-  --g:     #52b788;
-  --xg:    #06d6a0;
-  --blue:  #339af0;
-  --gold:  #f59f00;
+  --xf:    #ff2236;
+  --f:     #ff8c38;
+  --n:     #8ba5b8;
+  --g:     #4ade80;
+  --xg:    #16a34a;
+  --blue:  #60b4ff;
+  --gold:  #fbbf24;
   --violet:#a78bfa;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -372,8 +372,8 @@ const fmt = n => n >= 1e6 ? '$' + (n/1e6).toFixed(2) + 'M'
 
 const R5  = ['Extreme Fear','Fear','Neutral','Greed','Extreme Greed'];
 const R3  = ['Fear','Neutral','Greed'];
-const C5  = { 'Extreme Fear':'#e63946','Fear':'#f4a261','Neutral':'#748c9e','Greed':'#52b788','Extreme Greed':'#06d6a0' };
-const C3  = ['#f4a261','#748c9e','#52b788'];
+const C5  = { 'Extreme Fear':'#ff2236','Fear':'#ff8c38','Neutral':'#8ba5b8','Greed':'#4ade80','Extreme Greed':'#16a34a' };
+const C3  = ['#ff8c38','#8ba5b8','#4ade80'];
 const shortLabel = r => r.replace('Extreme ', 'X. ');
 
 const TIP = {
